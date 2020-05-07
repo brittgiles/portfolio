@@ -1,0 +1,138 @@
+@media (max-width: 1100px) {
+  .skillsContainer {
+    grid-template-columns: repeat(4, 180px);
+    justify-content: center;
+  }
+
+  .wrapper {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 1030px) {
+
+  .aboutContainer {
+    justify-content: flex-start;
+  }
+
+  .imgContainer {
+    width: 30%;
+    margin-left: 50px;
+  }
+
+  .workFlexParent {
+    justify-content: space-evenly;
+  }
+
+  .workImageContainer {
+    width: 40%;
+  }
+
+  .workTextContainer {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .wrapper {
+    max-width: 650px;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  .skillsUsed li {
+    font-size: 1.3rem;
+    color: #C7AD19;
+    background: none;
+    margin: 0px 5px 5px 0;
+  }
+}
+
+@media (max-width: 620px) {
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  .wrapper {
+    max-width: 550px;
+  }
+
+  .aboutText {
+    width: 80%;
+  }
+
+  .aboutContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .imgContainer {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+
+  .skillsContainer {
+    grid-template-columns: repeat(4, 130px);
+  }
+
+  .workFlexParent:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .workFlexParent:nth-child(odd){
+    flex-direction: column-reverse;
+  }
+
+  .workImageContainer {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+  .workTextContainer {
+    width: 80%;
+  }
+
+  .contactFlexParent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactTextContainer {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 15px;
+
+    ul {
+      justify-content: center;
+    }
+  }
+
+  form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 510px) {
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  .wrapper {
+    max-width: 450px;
+  }
+
+  .skillsContainer {
+    grid-template-columns: repeat(4, 100px);
+  }
+}
+
+@media (max-width: 414px) {
+  .wrapper {
+    max-width: 380px;
+  }
+}

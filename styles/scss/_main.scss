@@ -1,0 +1,255 @@
+// about section 
+#about {
+  padding-bottom: 50px;
+
+  span {
+    color: #C7AD19;
+    font-weight: bold;
+  }
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutText {
+  width: 60%;
+}
+
+.imgContainer {
+  width: 25%;
+
+  img {
+    box-shadow: 10px 10px 0px #55552C;
+  }
+}
+
+// skills section
+
+#skills {
+  background-color: #FBC7C4;
+}
+
+#skills h2::after {
+  background: #F7ABA9;
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 180px);
+  grid-template-rows: 150px 150px;
+
+    i {
+      font-size: 6rem;
+      margin: 10px;
+    }
+
+    .iconName {
+      opacity: 0;
+      color: #545629;
+      font-size: 1.3rem;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .individualSkill:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    color: #545629;
+
+    .iconName {
+      opacity: 1;
+      transition: all 0.4s;
+    }
+  }
+}
+
+.individualSkill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// projects section
+
+#work {
+  background-image: url(../assets/wave3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  margin-top: -5px;
+}
+
+#work h2 {
+  margin-top: 90px;
+}
+
+.workFlexParent {
+  display: flex;
+  margin-bottom: 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workImageContainer {
+  width: 55%;
+}
+
+.workTextContainer {
+  width: 40%;
+
+  a {
+    color: #374C9F;
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.skillsUsed {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    margin: 0px 10px 10px 0;
+    background: #AEBABA;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    opacity: 0.6;
+  }
+}
+
+.workLinks li {
+  margin: 10px 10px 10px 0;
+  display: inline-block;
+
+  a {
+    color: white;
+    background: #374C9F;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 140px;
+  }
+
+  a:hover {
+    background: #FDE3E1;
+    transition: all 0.5s;
+  }
+}
+
+.hoverLeft:hover {
+  box-shadow: -10px 10px 0 #545629;
+  border: 2px solid #545629;
+  transition: all 0.5s;
+}
+
+.hoverRight:hover {
+  box-shadow: 10px 10px 0 #F38159;
+  border: 2px solid #F38159;
+  transition: all 0.5s;
+}
+
+nav {
+  display: none;
+}
+
+// contact section
+
+#contact {
+  background-color: whitesmoke;
+}
+
+.contactFlexParent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactTextContainer {
+  width: 35%;
+
+  ul {
+    display: flex;
+    
+    li {
+      margin-right: 15px;
+    }
+  }
+
+  i {
+    font-size: 3rem;
+    color: #374C9F;
+  }
+
+  i:hover, 
+  #email:hover {
+    color: #FDE3E1;
+    transition: all 0.5s;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  color: #374C9F;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: white;
+  border: 2px solid #374C9F;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #f38159;
+}
+
+label {
+  display: none;
+}
+
+.button {
+  margin: 10px auto 15px;
+  color: white;
+  background: #374C9F;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 40px;
+  cursor: pointer;
+  width: 140px;
+}
+
+.button:hover {
+  background: #FDE3E1;
+  transition: all 0.5s;
+}
+
+.formSubmitMessage {
+  display: none;
+  color: #f38159;
+  font-weight: bold;
+  margin-bottom: 30px;
+}

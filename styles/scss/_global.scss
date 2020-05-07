@@ -1,0 +1,53 @@
+// typography
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 8rem;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5rem;
+  color: $primaryColor;
+  line-height: 30px;
+  padding: 50px 0;
+  position: relative;
+  display: inline-block;
+  text-transform: lowercase;
+  z-index: 2;
+}
+
+h2::after {
+  content: " ";
+  background: #FBC7C4;
+  position: absolute;
+  display: block;
+  height: 25%;
+  width: 110%;
+  top: 50%;
+  left: -4%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  color: #545629;
+  line-height: 3.5rem;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+h3::after {
+  content: " ";
+  background: #C7AD19;
+  position: absolute;
+  display: block;
+  height: 50%;
+  width: 105%;
+  top: 50%;
+  left: -2%;
+  z-index: -1;
+  opacity: 0.5;
+}

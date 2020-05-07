@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Brittany Giles | Front-End Web Developer </title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6e3c66ce9b.js"></script>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- favicon links -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <link rel="manifest" href="./assets/site.webmanifest">
+  <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">about</a>
+        </li>
+        <li>
+          <a href="#">work</a>
+        </li>
+        <li>
+          <a href="#">contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="headerTextContainer">
+      <h1>Hello, I'm Brittany.</h1>
+      <p>I'm a front-end web developer.</p>
+    </div>
+    <i class="fas fa-chevron-down arrow"></i>
+  </header>
+  <main>
+    <section id="about">
+      <div class="wrapper">
+        <h2>about</h2>
+        <div class="aboutContainer">
+          <div class="aboutText" data-aos="fade-down" data-aos-duration="1500">
+            <p>Hello! I’m a Front-End Web Developer and <span>creative problem solver</span> who loves writing <span>clean and accessible code</span>. I’m
+            looking to join a collaborative team and continue to grow my front-end skills while helping to make the internet
+            <span>beautiful and user-friendly for all</span>.</p>
+            <br />
+            <p>I come from the world of marketing, having previously worked at a creative communications agency for four years. As
+            Marketing Manager, I've worked with clients such as TELUS, Lyft, Sony Pictures Television, Lift & Co., INFINITI Motors, Communauto, and a plethora of tech and startup companies.</p>
+            <br />
+            <p>When I'm not coding, you'll find me trying new recipes, binging Bon Appétit videos, crafting, or dreaming of what kind of dog to adopt.</p>
+            </div>
+          <div class="imgContainer" data-aos="fade-down" data-aos-duration="1500">
+            <img src="./assets/headshot.png" alt="portrait headshot of brittany giles">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="wrapper">
+        <h2>skills & tools</h2>
+        <div class="skillsContainer" data-aos="fade-up" data-aos-duration="1500">
+          <div class="individualSkill">
+            <i class="devicon-html5-plain"></i>
+            <span class="iconName" aria-hidden="true">HTML5</span>
+            <span class="sr-only">H.T.M.L. 5</span>
+          </div>
+          <div class="individualSkill">
+            <i class="devicon-css3-plain"></i>
+            <span class="iconName" aria-hidden="true">CSS3</span>
+            <span class="sr-only">C.S.S. 3</span>
+          </div>
+          <div class="individualSkill">
+            <i class="devicon-sass-original"></i>
+            <span class="iconName">Sass</span>
+          </div>
+          <div class="individualSkill">
+            <i class="devicon-javascript-plain"></i>
+            <span class="iconName">JavaScript</span>
+          </div>
+          <div class="individualSkill">
+            <i class="devicon-jquery-plain"></i>
+            <span class="iconName">jQuery</span>
+          </div>
+          <div class="individualSkill">
+            <i class="devicon-react-original"></i>
+            <span class="iconName">React</span>
+          </div>
+          <div class="individualSkill">
+            <i class="devicon-github-plain"></i>
+            <span class="iconName" aria-hidden="true">GitHub</span>
+            <span class="sr-only">Git Hub</span>
+          </div>
+          <div class="individualSkill">
+            <i class="devicon-visualstudio-plain"></i>
+            <span class="iconName" aria-hidden="true">VS Code</span>
+            <span class="sr-only">V.S. Code</span>
+          </div>
+          <div class="individualSkill">
+            <i class="fas fa-fire-alt"></i>
+            <span class="iconName">Firebase</span>
+          </div>
+          <div class="individualSkill">
+            <i class="fas fa-mobile-alt"></i>
+            <span class="iconName">Responsive Design</span>
+          </div>
+          <div class="individualSkill">
+            <i class="fas fa-universal-access"></i>
+            <span class="iconName">Accessibility</span>
+          </div>
+          <div class="individualSkill">
+            <i class="fab fa-adobe"></i>
+            <span class="iconName">Adobe Creative Suite</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <div class="wrapper">
+        <h2>some things i've made</h2>
+        <div class="workFlexParent" data-aos="fade-up" data-aos-duration="1500">
+          <div class="workImageContainer hoverLeft">
+            <img src="./assets/memeseum.png" alt="Screenshot of Memeseum app">
+          </div>
+          <div class="workTextContainer">
+            <h3>Memeseum</h3>
+            <p>Inspiried by one of my favourite Instagram accounts, <a href="https://www.instagram.com/punk_history/" target="_blank">@punk_history</a>, I created an app that pulls a random piece of art from the Rijksmuseum API and allows users to get creative and add their own caption. This was my first time working with React and I also used both Firebase and HTML Canvas for this project.</p>
+            <ul class="skillsUsed">
+              <li>React</li>
+              <li>Firebase</li>
+              <li>API</li>
+              <li>CSS3</li>
+              <li>HTML5</li>
+            </ul>
+            <ul class="workLinks">
+              <li>
+                <a href="https://brittgiles.github.io/brittany-giles-project-5/" target="_blank">View Live</a>
+              </li>
+              <li><a href="https://github.com/brittgiles/brittany-giles-project-5" target="_blank">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="workFlexParent" data-aos="fade-up" data-aos-duration="1500">
+          <div class="workTextContainer">
+            <h3>The Nygma Machine</h3>
+            <p>The Nygma Machine is here to dispense advice based on the question you input, but you'll have to journey through the maze first! This React-based project was built with my pals <a href="https://cecilezhang.com/" target="_blank">Cecile Zhang</a>, <a href="https://jayhinds.com/" target="_blank">Jay Hinds</a>, and <a href="https://mtthdz.com/" target="_blank">Matt Hernandez</a>.</p>
+            <ul class="skillsUsed">
+              <li>React</li>
+              <li>Firebase</li>
+              <li>API</li>
+              <li>CSS3</li>
+              <li>HTML5</li>
+            </ul>
+            <ul class="workLinks">
+              <li>
+                <a href="https://bcjm.github.io/theNygmaMachine/" target="_blank">View Live</a>
+              </li>
+              <li>
+                <a href="https://github.com/bcjm/theNygmaMachine" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </div>
+          <div class="workImageContainer hoverRight">
+            <img src="./assets/theNygmaMachine.png" alt="Screenshot of the Nygma Machine app loading page">
+          </div>
+        </div>
+        <div class="workFlexParent" data-aos="fade-up" data-aos-duration="1500">
+          <div class="workImageContainer hoverLeft">
+            <img src="./assets/giveMeADrink.png" alt="Screenshot of Give Me a Drink app">
+          </div>
+          <div class="workTextContainer">
+            <h3>Give Me a Drink!</h3>
+            <p>This app helps you find a random recipe based on how you're feeling. Filter your result using a specific ingredient or by dietary restrictions and enjoy! This was a paired programming project created in collaboration with <a href="https://abirhalwa.com/" target="_blank">Abir Halwa</a>.</p>
+            <ul class="skillsUsed">
+              <li>jQuery</li>
+              <li>JavaScript</li>
+              <li>API</li>
+              <li>CSS3</li>
+              <li>Sass</li>
+              <li>HTML5</li>
+            </ul>
+            <ul class="workLinks">
+              <li>
+                <a href="https://abirandbritt.github.io/abirAndBrittanyProjectFour/" target="_blank">View Live</a>
+              </li>
+              <li>
+                <a href="https://github.com/abirAndBritt/abirAndBrittanyProjectFour" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="workFlexParent" data-aos="fade-up" data-aos-duration="1500">
+          <div class="workTextContainer">
+            <h3>It's All About Sophie</h3>
+            <p>This pixel-perfect multi-page PSD conversion utilizes CSS flexbox and is fully responsive across all devices.</p>
+            <ul class="skillsUsed">
+              <li>Sass</li>
+              <li>CSS3</li>
+              <li>HTML5</li>
+            </ul>
+            <ul class="workLinks">
+              <li>
+                <a href="https://brittgiles.github.io/brittany-giles-project-2/" target="_blank">View Live</a>
+              </li>
+              <li>
+                <a href="https://github.com/brittgiles/brittany-giles-project-2" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </div>
+          <div class="workImageContainer hoverRight">
+            <img src="./assets/itsAllAboutSophie.png" alt="Screenshot of It's All About Sophie landing page">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="wrapper">
+        <h2>contact</h2>
+        <div class="contactFlexParent">
+          <div class="contactTextContainer" data-aos="fade-down" data-aos-duration="1500">
+            <p>Hit me up using the super handy 'lil contact form or feel free to reach out to me directly at the email below! Please send pics of your dog.</p>
+            <p><a href="mailto:giles.brittany@gmail.com" id="email">giles.brittany@gmail.com</a></p>
+            <ul>
+              <li><a href="https://github.com/brittgiles/" target="_blank" title="Find me on GitHub"><i class="fab fa-github"></i></a></i></li>
+              <li><a href="https://www.linkedin.com/in/brittanygiles/" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://twitter.com/brittsays" target="_blank" title="Let's be Twitter pals"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </div>
+          <form action="https://formspree.io/mvobdppp" method="POST" data-aos="fade-down" data-aos-duration="1500">
+            <label for="userName" id="nameLabel">Name*</label>
+            <input type="text" name="name" placeholder="Your name*" id="userName" required>
+            <label for="userEmail" id="emailLabel">Email*</label>
+            <input type="email" name="_replyto" placeholder="Your email*" id="userEmail" required>
+            <label for="userMessage" id="messageLabel">Message*</label>
+            <textarea name="userMessage" id="userMessage" cols="30" rows="5" placeholder="Hi Britt, I heard you like coffee! Let's grab one and talk about our favourite dogs and web development!" required></textarea>
+            <button aria-label="Submit" type="submit"  class="button">Send</button>
+            <p class="formSubmitMessage">Thanks! Your message has been sent. ✨</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="wrapper">Designed and developed with 💖 by Brittany Giles</p>
+  </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+<script src="script.js"></script>
+</body>
+</html>
